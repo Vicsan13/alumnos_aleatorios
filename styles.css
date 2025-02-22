@@ -1,0 +1,47 @@
+body{
+    background-color: #4e5;
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS;
+    text-align: center;
+}
+
+h1 {
+    font-size: 38px;
+    background-color: #899B9F;
+    border: 2px solid #8f9da0; /* Borde */
+    color: #374342; /* Color diferente al body */
+    border-radius: 15px; /* Borde redondeado */
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px #888888; /* Sombreado */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6; /* Color del botón */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición al pasar el mouse */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 3px 3px 5px #888888; /* Sombreado */
+}
+
+button:hover {
+    background-color: #4682B4; /* Cambio de color al pasar el mouse */
+}
+
+#personInfo {
+    text-align: center; /* Centrado */
+}
+
+#personInfo p {
+    font-size: 18px; /* Tamaño de letra 14 */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold; /* Negritas */
+}
+
+#personInfo img {
+    max-width: 200px; /* Tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 19px; /* Borde redondeado */
+    box-shadow: 3px 3px 5px #888888; /* Sombreado */
+}
